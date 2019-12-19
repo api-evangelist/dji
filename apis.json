@@ -1,0 +1,61 @@
+{
+    "name": "DJI",
+    "description": "D\u00e0-Ji\u0101ng Innovations is a Chinese technology company headquartered in Shenzhen, Guangdong with manufacturing facilities throughout the world.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/19779-dji.jpg",
+    "tags": [
+        "api provider",
+        "drones",
+        "have api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/dji\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "DJI",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/19779-dji.jpg",
+            "humanURL": "http:\/\/dji.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/dji-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/dji-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/dji"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/dji-sdk"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/djiglobal"
+        },
+        {
+            "type": "Developers",
+            "url": "https:\/\/developer.dji.com\/"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/www.dji.com\/"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/dji.com"
+        }
+    ]
+}
