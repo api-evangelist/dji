@@ -1,0 +1,35 @@
+generated: '2026-07-18'
+method: searched
+source: https://developer.dji.com/
+description: >-
+  DJI publishes dated release notes per developer product on developer.dji.com.
+  There is no single unified changelog; the recent per-product current releases
+  captured below were read from the developer portal product listing at fetch
+  time. Each product's release-notes page is the source of truth for full
+  history.
+scheme: semver-per-product
+entries:
+  - product: Payload SDK
+    version: 3.16.0
+    date: '2026-03-31'
+    docs: https://developer.dji.com/payload-sdk
+  - product: Cloud API
+    version: v1.14.0
+    date: '2025-04-15'
+    docs: https://developer.dji.com/cloud-api
+  - product: Edge SDK
+    version: 1.2.0
+    date: '2025-04-15'
+    docs: https://developer.dji.com/edge-sdk
+  - product: UX SDK
+    version: 4.16.2
+    date: '2022-10-26'
+    docs: https://developer.dji.com/ux-sdk
+  - product: Onboard SDK
+    version: 4.1.0
+    date: '2021-02-02'
+    docs: https://developer.dji.com/onboard-sdk
+  - product: Windows SDK
+    version: 0.3.2-beta
+    date: '2019-09-17'
+    docs: https://developer.dji.com/windows-sdk

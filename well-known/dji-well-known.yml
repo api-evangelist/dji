@@ -1,0 +1,25 @@
+generated: '2026-07-18'
+method: searched
+source: probe of /.well-known/ on DJI developer and marketing hosts
+description: >-
+  Probe of common /.well-known/ discovery endpoints on DJI hosts. No discovery
+  documents were served (all 404 or redirected to localized marketing pages).
+  Absence is valid recorded data; no WellKnown scoring pointer is asserted since
+  no document was found.
+hosts:
+  - host: https://developer.dji.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+  - host: https://www.dji.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 302
+        note: redirect to localized marketing page, not a security.txt
+      - path: /.well-known/ai-plugin.json
+        status: 302
+        note: redirect to localized marketing page, not an ai-plugin manifest

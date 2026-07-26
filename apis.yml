@@ -1,8 +1,29 @@
 aid: dji
 name: DJI
-description: DJI is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  DJI (Da-Jiang Innovations) is the world's leading manufacturer of civilian
+  drones, aerial-imaging systems, gimbals, and robotics platforms. Its developer
+  program at developer.dji.com exposes several products for building on DJI
+  hardware: the Cloud API (device management, media, and live streaming for
+  enterprise fleets), the FlightHub 2 API, the Mobile SDK (Android/iOS), the
+  Payload SDK for building custom payloads, the Onboard SDK, the Edge SDK, the
+  Windows SDK, the UX SDK, and the Guidance and RoboMaster SDKs. Developers
+  register an application through a DJI developer account to obtain an App Key,
+  App Secret, and App License that activate SDK and Cloud API access.
 url: https://raw.githubusercontent.com/api-evangelist/dji/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://www-cdn.djiits.com/dps/de46652dd99c67d4f8d17607e3bf0dce.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +32,19 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Drones
+- UAV
+- Aerial Imaging
+- Robotics
+- SDK
+- Cloud API
+- Geospatial
+- Hardware
+- Enterprise
+- Developer Platform
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,40 @@ maintainers:
 common:
 - type: Website
   url: http://www.dji.com/
+- type: DeveloperPortal
+  url: https://developer.dji.com/
+- type: Documentation
+  url: https://developer.dji.com/cloud-api
+- type: APIReference
+  url: https://developer.dji.com/doc/cloud-api-tutorial/en/
+- type: GitHubOrganization
+  url: https://github.com/dji-sdk
+- type: Support
+  url: https://sdk-forum.dji.net/hc/en-us
+- type: HelpCenter
+  url: https://djisdksupport.zendesk.com/hc/en-us
+- type: Login
+  url: https://account.dji.com/
+- type: TermsOfService
+  url: https://developer.dji.com/policies/terms
+- type: PrivacyPolicy
+  url: https://www.dji.com/policy
+- type: Packages
+  url: packages/dji-packages.yml
+- type: SDKs
+  url: packages/dji-packages.yml
+- type: Authentication
+  url: authentication/dji-authentication.yml
+- type: Lifecycle
+  url: lifecycle/dji-lifecycle.yml
+- type: ChangeLog
+  url: changelog/dji-changelog.yml
+- type: LLMsTxt
+  url: llms/dji-llms.txt
+- type: DomainSecurity
+  url: security/dji-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

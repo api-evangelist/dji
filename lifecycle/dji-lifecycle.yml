@@ -1,0 +1,52 @@
+generated: '2026-07-18'
+method: searched
+source: https://developer.dji.com/
+description: >-
+  DJI ships each developer SDK and the Cloud API as an independently versioned
+  product with dated release notes on developer.dji.com. Versioning follows
+  semantic-version style per product. There is a live major-version transition:
+  the Mobile SDK V5 (MSDK V5) supersedes the legacy Mobile SDK V4, which is in
+  maintenance. No public uptime/status page and no formal machine-readable
+  deprecation (Sunset/Deprecation header) policy were found.
+versioning:
+  scheme: semver-per-product
+  products:
+    - name: Cloud API
+      current: v1.14.0
+      released: '2025-04-15'
+      docs: https://developer.dji.com/cloud-api
+    - name: Payload SDK
+      current: 3.16.0
+      released: '2026-03-31'
+      docs: https://developer.dji.com/payload-sdk
+    - name: Mobile SDK (Android V5)
+      current: 5.18.0
+      docs: https://developer.dji.com/mobile-sdk
+    - name: Mobile SDK (iOS V4)
+      current: 4.16.2
+      docs: https://developer.dji.com/mobile-sdk
+    - name: Edge SDK
+      current: 1.2.0
+      released: '2025-04-15'
+      docs: https://developer.dji.com/edge-sdk
+    - name: UX SDK
+      current: 4.16.2
+      released: '2022-10-26'
+      docs: https://developer.dji.com/ux-sdk
+    - name: Onboard SDK
+      current: 4.1.0
+      released: '2021-02-02'
+      docs: https://developer.dji.com/onboard-sdk
+    - name: Windows SDK
+      current: 0.3.2-beta
+      released: '2019-09-17'
+      docs: https://developer.dji.com/windows-sdk
+deprecation:
+  policy_url: null
+  sunset_header: false
+  notes: >-
+    Mobile SDK V4 is superseded by MSDK V5; no formal dated deprecation policy
+    page or RFC 8594 Sunset/Deprecation header support was found.
+sla:
+  url: null
+status_page: null

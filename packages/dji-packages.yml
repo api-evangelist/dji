@@ -1,0 +1,90 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/dji-sdk
+description: >-
+  First-party DJI developer SDKs. DJI distributes its client libraries as native
+  platform SDKs (Android/iOS/C/C++/C#/Python) primarily through its official
+  GitHub organization (github.com/dji-sdk) and downloadable packages on
+  developer.dji.com, rather than through language package registries. Each entry
+  below is an official DJI-published repository confirmed at fetch time. The npm
+  and PyPI packages found under a "dji" search are third-party community wrappers
+  and are intentionally excluded (no official first-party registry package was
+  found).
+packages:
+  - language: java
+    registry: github
+    name: Mobile-SDK-Android-V5
+    url: https://github.com/dji-sdk/Mobile-SDK-Android-V5
+    docs: https://developer.dji.com/mobile-sdk
+    official: true
+  - language: java
+    registry: github
+    name: Mobile-SDK-Android
+    url: https://github.com/dji-sdk/Mobile-SDK-Android
+    docs: https://developer.dji.com/mobile-sdk
+    official: true
+  - language: objective-c
+    registry: github
+    name: Mobile-SDK-iOS
+    url: https://github.com/dji-sdk/Mobile-SDK-iOS
+    docs: https://developer.dji.com/mobile-sdk
+    official: true
+  - language: c
+    registry: github
+    name: Payload-SDK
+    url: https://github.com/dji-sdk/Payload-SDK
+    docs: https://developer.dji.com/payload-sdk
+    official: true
+  - language: c++
+    registry: github
+    name: Onboard-SDK
+    url: https://github.com/dji-sdk/Onboard-SDK
+    docs: https://developer.dji.com/onboard-sdk
+    official: true
+  - language: c++
+    registry: github
+    name: Onboard-SDK-ROS
+    url: https://github.com/dji-sdk/Onboard-SDK-ROS
+    docs: https://developer.dji.com/onboard-sdk
+    official: true
+  - language: c++
+    registry: github
+    name: Edge-SDK-V2-Demo
+    url: https://github.com/dji-sdk/Edge-SDK-V2-Demo
+    docs: https://developer.dji.com/edge-sdk
+    official: true
+  - language: c
+    registry: github
+    name: Windows-SDK
+    url: https://github.com/dji-sdk/Windows-SDK
+    docs: https://developer.dji.com/windows-sdk
+    official: true
+  - language: objective-c
+    registry: github
+    name: Mobile-UXSDK-iOS
+    url: https://github.com/dji-sdk/Mobile-UXSDK-iOS
+    docs: https://developer.dji.com/ux-sdk
+    official: true
+  - language: java
+    registry: github
+    name: Mobile-UXSDK-Android
+    url: https://github.com/dji-sdk/Mobile-UXSDK-Android
+    docs: https://developer.dji.com/ux-sdk
+    official: true
+  - language: c++
+    registry: github
+    name: Guidance-SDK
+    url: https://github.com/dji-sdk/Guidance-SDK
+    official: true
+  - language: python
+    registry: github
+    name: RoboMaster-SDK
+    url: https://github.com/dji-sdk/RoboMaster-SDK
+    official: true
+  - language: java
+    registry: github
+    name: DJI-Cloud-API-Demo
+    url: https://github.com/dji-sdk/DJI-Cloud-API-Demo
+    docs: https://developer.dji.com/cloud-api
+    official: true
+    note: Reference server implementation for the DJI Cloud API (not a client SDK).

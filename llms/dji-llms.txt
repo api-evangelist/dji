@@ -1,0 +1,33 @@
+# DJI
+
+> DJI (Da-Jiang Innovations) is the world's leading manufacturer of civilian drones, aerial-imaging systems, gimbals, and robotics platforms. Its developer program exposes the Cloud API, FlightHub 2 API, and a family of native SDKs (Mobile, Payload, Onboard, Edge, Windows, UX, Guidance, RoboMaster) for building on DJI hardware. Access is activated with an App Key, App Secret, and App License obtained through a DJI developer account.
+
+## Developer
+- [Developer Portal](https://developer.dji.com/): Entry point to all DJI developer products.
+- [Cloud API](https://developer.dji.com/cloud-api): Device management, media, and live streaming for enterprise fleets.
+- [Cloud API Tutorial](https://developer.dji.com/doc/cloud-api-tutorial/en/): Cloud API documentation and reference.
+- [Payload SDK](https://developer.dji.com/payload-sdk): Build custom payloads for DJI aircraft.
+- [Mobile SDK](https://developer.dji.com/mobile-sdk): Android and iOS control SDK.
+- [Onboard SDK](https://developer.dji.com/onboard-sdk): Low-level onboard control SDK.
+- [Edge SDK](https://developer.dji.com/edge-sdk): On-drone edge computing SDK.
+- [Windows SDK](https://developer.dji.com/windows-sdk): Windows control SDK.
+- [UX SDK](https://developer.dji.com/ux-sdk): Prebuilt UI components for mobile apps.
+
+## Code
+- [GitHub Organization](https://github.com/dji-sdk): Official DJI SDK repositories.
+- [DJI Cloud API Demo](https://github.com/dji-sdk/DJI-Cloud-API-Demo): Reference Cloud API server implementation.
+
+## Account & Support
+- [Sign in / Register](https://account.dji.com/): DJI developer account.
+- [SDK Forum](https://sdk-forum.dji.net/hc/en-us): Official developer support forum.
+- [Support Center](https://djisdksupport.zendesk.com/hc/en-us): Developer help center.
+
+## Legal
+- [Terms of Use](https://developer.dji.com/policies/terms)
+- [Privacy Policy](https://www.dji.com/policy)
+
+## Artifacts
+- [Packages / SDKs](https://raw.githubusercontent.com/api-evangelist/dji/refs/heads/main/packages/dji-packages.yml)
+- [Authentication](https://raw.githubusercontent.com/api-evangelist/dji/refs/heads/main/authentication/dji-authentication.yml)
+- [Lifecycle](https://raw.githubusercontent.com/api-evangelist/dji/refs/heads/main/lifecycle/dji-lifecycle.yml)
+- [Changelog](https://raw.githubusercontent.com/api-evangelist/dji/refs/heads/main/changelog/dji-changelog.yml)
