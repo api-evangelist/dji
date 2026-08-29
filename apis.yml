@@ -11,6 +11,17 @@ description: >-
   register an application through a DJI developer account to obtain an App Key,
   App Secret, and App License that activate SDK and Cloud API access.
 url: https://raw.githubusercontent.com/api-evangelist/dji/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
